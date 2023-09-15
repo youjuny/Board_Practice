@@ -1,4 +1,5 @@
 public class Article {
+    private int hit;
     private int id;
     private String title;
     private String content;
@@ -9,6 +10,14 @@ public class Article {
         this.title = title;
         this.content = content;
         this.regDate = regDate;
+    }
+
+    public int getHit() {
+        return hit;
+    }
+
+    public void setHit(int hit) {
+        this.hit = hit;
     }
 
     public int getId() {
